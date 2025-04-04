@@ -227,18 +227,3 @@
 //     }
 //     console.log(star);
 // }
-
-function baljeet(star) {
-for (let i; i < 7; i++) {
-    for (j; j < 5; j++) {
-        if (j == 0 || j == 4 && i != 0 && i != 3 && i != 6 || i == 0 && j != 4 || i == 3 && j != 4 || i == 6 && j != 4) {
-            console.log("*");
-        } else {
-            console.log(" ");
-        }
-    }
-    console.log(star);
-}
-}
-
-baljeet();
