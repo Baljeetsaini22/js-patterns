@@ -129,16 +129,16 @@
 
 // //! Print pattern of i-5 in type of triangle 
 
-// let i = 0;
-// let g = "";
-// while (i < 5) {     
-//     for (i = 1; i <= 5; i++) { 
-//         for (j = i; j <= i; j++) {
-//                 g += i;                 
-//             }
-//             console.log(g);    
-//         }      
-// }
+let i = 0;
+let g = "";
+while (i < 5) {     
+    for (i = 1; i <= 5; i++) { 
+        for (j = i; j <= i; j++) {
+                g += i;                 
+            }
+            console.log(g);    
+        }      
+}
 
 
 // //! Print pattern of i-5 in type of triangle opposite
@@ -157,7 +157,7 @@
 
 
 
-//! => find maximum and minimum number in array 
+// ! => find maximum and minimum number in array 
 
 // let num = [87, 15, 26, 45, 54, 64, 55, 35, 23, 96];
 
@@ -168,7 +168,7 @@
 // console.log(min);
 
 
-//! => find the Prime number  
+// ! => find the Prime number  
 
 // let num=0
 // for(i = 2; i <= 100; i++) {    
@@ -181,13 +181,13 @@
 // num=0  
 // }
 
-//! => find the number is divisible by 4 or not 
+// ! => find the number is divisible by 4 or not 
 
-// let num = prompt("Enter your Number")
+// let num = 78
 
 // if (num % 4 ===0) {
-//     console.log(num + " is divisible by 4")
+//     console.log( num + " is divisible by 4")
 // } else {
-//     console.log(num + " is not divisible by 4");
+//     console.log( num + " is not divisible by 4");
     
 // }
